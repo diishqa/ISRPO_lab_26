@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial;
+    background: #eee;
+    padding: 20px;
+}
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background: green;
+    color: white;
+    border: none;
+}
+button:hover {
+    background: darkgreen;
+}
